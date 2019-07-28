@@ -14,7 +14,6 @@ public class FunctionInterfacePractise {
 
 		Function<Integer, String> intToString = Object::toString;
 		Function<String, String> quote = s -> "'" + s + "'";
-
 		Function<Integer, String> quoteIntToString = quote.compose(intToString);
 
 		System.out.println(quoteIntToString.apply(10));
