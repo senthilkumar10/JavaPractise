@@ -1,18 +1,23 @@
-package methodchaining;
+package manageUserAccessMethods;
 
 public class ManageUserAccessPage {
 	
-	public boolean enterUserName(String userName) {
+	protected boolean enterUserName(String userName) {
 		System.out.println("This is to select the User ID :"+userName);
 		return true;
 	}
-	
-	public boolean enterRole(String role) {
+
+	protected boolean enterRole(String role) {
 		System.out.println("The Role to be selected :"+role);
 		return true;
 	}
-	
-	public boolean clickReviewandSubmit() {
+
+	protected boolean clickManageTab(){
+		System.out.println("Manage User Tab clicked");
+		return true;
+	}
+
+	protected boolean clickReviewandSubmit() {
 		System.out.println("Reviewed the items and submitted it");
 		return true;
 	}	

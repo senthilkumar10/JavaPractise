@@ -1,13 +1,15 @@
-package methodchaining;
+package MangeUserAccessTC;
+
+import methodchaining.ManageUserAccess;
 
 public class MangeUserAccessTC {
 
 	public static void main(String[] args) {
-		//ManageUserAccessPage pageObj = new ManageUserAccessPage();
+
 		ManageUserAccess manageObj = new ManageUserAccess();
-		
-		String temp = manageObj.selectUserID("Senthil").selectRole("EVP Role").getRequestID();
-		System.out.println(temp);
+
+		manageObj.selectUserID("Senthil").clickNextInUserTab();
+
 		
 		
 		
