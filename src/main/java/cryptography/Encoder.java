@@ -1,4 +1,4 @@
-package javapractise;
+package cryptography;
 
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;

@@ -1,4 +1,6 @@
-package javapractise;
+package cryptography;
+
+import cryptography.Encoder;
 
 import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;

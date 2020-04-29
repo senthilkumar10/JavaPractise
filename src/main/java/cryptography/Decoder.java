@@ -1,4 +1,4 @@
-package javapractise;
+package cryptography;
 
 import org.apache.commons.codec.binary.Base64;
 
