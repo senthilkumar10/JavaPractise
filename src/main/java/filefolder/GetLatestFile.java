@@ -1,4 +1,4 @@
-package javapractise;
+package filefolder;
 
 import java.io.*;
 import java.util.Arrays;
